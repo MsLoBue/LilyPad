@@ -1,14 +1,17 @@
 {
-  "name": "elobue",
+  "name": "lily-calm-kit",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "A personal coping support app for Lily",
+  "private": true,
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build."
-},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.11"
+  }
 }
